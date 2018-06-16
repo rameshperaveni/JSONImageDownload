@@ -63,12 +63,12 @@
 				04119DB920D2946600CEDF5E /* AppDelegate.swift */,
 				04119DBB20D2946600CEDF5E /* ViewController.swift */,
 				04119DCB20D2A7E700CEDF5E /* HeroViewController.swift */,
+				04119DCD20D2A97100CEDF5E /* Herostates.swift */,
 				047D328220D4FCEA000D25EC /* File.swift */,
 				04119DBD20D2946600CEDF5E /* Main.storyboard */,
 				04119DC020D2946600CEDF5E /* Assets.xcassets */,
 				04119DC220D2946600CEDF5E /* LaunchScreen.storyboard */,
 				04119DC520D2946600CEDF5E /* Info.plist */,
-				04119DCD20D2A97100CEDF5E /* Herostates.swift */,
 			);
 			path = JSONImageDownload;
 			sourceTree = "<group>";
