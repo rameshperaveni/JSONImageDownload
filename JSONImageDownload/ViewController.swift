@@ -8,18 +8,67 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+    
+    
 
+    var array = [Herostates]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+        
+        download()
+            print("succes json")
+        
+        tableview.delegate = self
+        tableview.dataSource = self
+        
+        
+            }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBOutlet weak var tableview: UITableView!
+    
+    func download( )
+       // completed: @escaping () -> ()
+    {
+        let url = URL(string : "https://api.opendota.com/api/heroStats")
+        URLSession.shared.dataTask(with: url!) { (data, response, error) in
+            
+            if error == nil
+            {
+                do
+                {
+                   self.array = try JSONDecoder().decode([Herostates].self , from: data!)
+                    print(self.array)
+                
+                  DispatchQueue.main.async {
+                       self.tableview.reloadData()
+                   }
+                }
+                catch
+                {
+                    print("Json error")
+                }
+                
+            }
+           
+        }.resume()
     }
-
+    
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        return array.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
+        cell.textLabel?.text = array[indexPath.row].localized_name.capitalized
+        
+        return cell
+        
+    }
 
 }
 

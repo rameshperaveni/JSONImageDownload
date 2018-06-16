@@ -12,6 +12,8 @@
 		04119DBF20D2946600CEDF5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04119DBD20D2946600CEDF5E /* Main.storyboard */; };
 		04119DC120D2946600CEDF5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04119DC020D2946600CEDF5E /* Assets.xcassets */; };
 		04119DC420D2946600CEDF5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04119DC220D2946600CEDF5E /* LaunchScreen.storyboard */; };
+		04119DCC20D2A7E700CEDF5E /* HeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04119DCB20D2A7E700CEDF5E /* HeroViewController.swift */; };
+		04119DCE20D2A97100CEDF5E /* Herostates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04119DCD20D2A97100CEDF5E /* Herostates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		04119DC020D2946600CEDF5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04119DC320D2946600CEDF5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04119DC520D2946600CEDF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04119DCB20D2A7E700CEDF5E /* HeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewController.swift; sourceTree = "<group>"; };
+		04119DCD20D2A97100CEDF5E /* Herostates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Herostates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				04119DB920D2946600CEDF5E /* AppDelegate.swift */,
 				04119DBB20D2946600CEDF5E /* ViewController.swift */,
+				04119DCB20D2A7E700CEDF5E /* HeroViewController.swift */,
 				04119DBD20D2946600CEDF5E /* Main.storyboard */,
 				04119DC020D2946600CEDF5E /* Assets.xcassets */,
 				04119DC220D2946600CEDF5E /* LaunchScreen.storyboard */,
 				04119DC520D2946600CEDF5E /* Info.plist */,
+				04119DCD20D2A97100CEDF5E /* Herostates.swift */,
 			);
 			path = JSONImageDownload;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04119DBC20D2946600CEDF5E /* ViewController.swift in Sources */,
+				04119DCE20D2A97100CEDF5E /* Herostates.swift in Sources */,
+				04119DCC20D2A7E700CEDF5E /* HeroViewController.swift in Sources */,
 				04119DBA20D2946600CEDF5E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
