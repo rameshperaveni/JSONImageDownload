@@ -14,6 +14,7 @@
 		04119DC420D2946600CEDF5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04119DC220D2946600CEDF5E /* LaunchScreen.storyboard */; };
 		04119DCC20D2A7E700CEDF5E /* HeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04119DCB20D2A7E700CEDF5E /* HeroViewController.swift */; };
 		04119DCE20D2A97100CEDF5E /* Herostates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04119DCD20D2A97100CEDF5E /* Herostates.swift */; };
+		047D328320D4FCEA000D25EC /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D328220D4FCEA000D25EC /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		04119DC520D2946600CEDF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04119DCB20D2A7E700CEDF5E /* HeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewController.swift; sourceTree = "<group>"; };
 		04119DCD20D2A97100CEDF5E /* Herostates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Herostates.swift; sourceTree = "<group>"; };
+		047D328220D4FCEA000D25EC /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				04119DB920D2946600CEDF5E /* AppDelegate.swift */,
 				04119DBB20D2946600CEDF5E /* ViewController.swift */,
 				04119DCB20D2A7E700CEDF5E /* HeroViewController.swift */,
+				047D328220D4FCEA000D25EC /* File.swift */,
 				04119DBD20D2946600CEDF5E /* Main.storyboard */,
 				04119DC020D2946600CEDF5E /* Assets.xcassets */,
 				04119DC220D2946600CEDF5E /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047D328320D4FCEA000D25EC /* File.swift in Sources */,
 				04119DBC20D2946600CEDF5E /* ViewController.swift in Sources */,
 				04119DCE20D2A97100CEDF5E /* Herostates.swift in Sources */,
 				04119DCC20D2A7E700CEDF5E /* HeroViewController.swift in Sources */,
